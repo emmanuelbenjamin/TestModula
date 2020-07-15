@@ -1,0 +1,123 @@
+body
+{
+  margin: 10px 0 ;
+  padding: 0 ;
+  text-align: center ;
+  background: #c4a78b ;
+  font-family: 'Cookie', cursive;
+}
+
+div#cont
+{
+  width: 928px ;
+  height: auto ;
+  margin: 0 auto ;
+  text-align: left ;
+  border: 2px solid #FFFFFF ;
+  background: #4d423a ;
+}
+
+h1#header
+{
+  height: 258px ;
+  background: url(../IMG/guitare1.jpg) no-repeat left top ;
+  margin: 0 ;
+
+}
+
+h1#header a
+{
+	width: 400px ;
+	height: 70px ;
+	display: block ;
+	position: relative ;
+	left: 80px ;
+	top: 115px ;
+	text-decoration: none;
+	color: #FFFFFF ; 
+}
+
+ul#menu
+{
+	height: 29px ;
+	margin: 0 ;
+	padding: 0 ;
+	list-style-type: none ;
+}
+
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+	width: 232px;
+}
+
+ul#menu li a
+{
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #fff ;
+	display: block ;
+	text-decoration: none ;
+	border: 2px solid #dea ;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div#slider { overflow: hidden; }
+div#slider figure img { width: 928px; height: 400px ; padding-top: -10px ; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+
+div#contenu
+{
+	padding: 0 30px 0 100px ;
+	color: white ;
+}
+
+div#contenu h2
+{
+	padding-left: 25px ;	
+	line-height: 25px ;
+	font-size: 2.0em ;
+	color: #FFFFFF ;
+	border-bottom: 1px solid #9b2 ;
+}
+
+div#contenu p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+	font-size: 1.2em
+}
+
+p#f
+{
+	margin: 0 ;
+	display: flex ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: black ;
+}
+
